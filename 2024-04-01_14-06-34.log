@@ -1,0 +1,61 @@
+2024/04/01 14:06:34 init tunnel
+2024/04/01 14:06:34 create GET HTTP request to https://stella-vpn-dev-sgfk.3.us-1.fl0.io/api/login
+2024/04/01 14:06:34 getting connection
+2024/04/01 14:06:34 writting request CONNECT to proxy
+2024/04/01 14:06:35 reading request CONNECT from proxy
+2024/04/01 14:06:37 reading login response
+2024/04/01 14:06:37 decoding user for getting the key
+2024/04/01 14:06:37 create GET HTTP request to https://stella-vpn-dev-sgfk.3.us-1.fl0.io/api/login
+2024/04/01 14:06:37 getting connection
+2024/04/01 14:06:37 writting request CONNECT to proxy
+2024/04/01 14:06:37 reading request CONNECT from proxy
+2024/04/01 14:06:39 reading login response
+2024/04/01 14:06:39 decoding user for getting the key
+2024/04/01 14:06:39 invalid character '/' looking for beginning of value
+2024/04/01 14:06:39 create GET HTTP request to https://stella-vpn-dev-sgfk.3.us-1.fl0.io/api/login
+2024/04/01 14:06:39 getting connection
+2024/04/01 14:06:39 writting request CONNECT to proxy
+2024/04/01 14:06:39 reading request CONNECT from proxy
+2024/04/01 14:06:40 reading login response
+2024/04/01 14:06:43 decoding user for getting the key
+2024/04/01 14:06:43 invalid character '/' looking for beginning of value
+2024/04/01 14:06:44 create GET HTTP request to https://stella-vpn-dev-sgfk.3.us-1.fl0.io/api/login
+2024/04/01 14:06:44 getting connection
+2024/04/01 14:06:44 writting request CONNECT to proxy
+2024/04/01 14:06:44 reading request CONNECT from proxy
+2024/04/01 14:06:45 reading login response
+2024/04/01 14:06:48 decoding user for getting the key
+2024/04/01 14:06:49 invalid character '/' looking for beginning of value
+2024/04/01 14:06:49 create GET HTTP request to https://stella-vpn-dev-sgfk.3.us-1.fl0.io/api/login
+2024/04/01 14:06:50 getting connection
+2024/04/01 14:06:50 writting request CONNECT to proxy
+2024/04/01 14:06:50 reading request CONNECT from proxy
+2024/04/01 14:06:51 reading login response
+2024/04/01 14:06:56 decoding user for getting the key
+2024/04/01 14:06:56 invalid character '/' looking for beginning of value
+2024/04/01 14:06:56 create GET HTTP request to https://stella-vpn-dev-sgfk.3.us-1.fl0.io/api/login
+2024/04/01 14:06:56 getting connection
+2024/04/01 14:06:56 writting request CONNECT to proxy
+2024/04/01 14:06:56 reading request CONNECT from proxy
+2024/04/01 14:06:57 reading login response
+2024/04/01 14:06:59 decoding user for getting the key
+2024/04/01 14:06:59 invalid character '/' looking for beginning of value
+2024/04/01 14:06:59 create GET HTTP request to https://stella-vpn-dev-sgfk.3.us-1.fl0.io/api/login
+2024/04/01 14:06:59 getting connection
+2024/04/01 14:07:00 writting request CONNECT to proxy
+2024/04/01 14:07:00 reading request CONNECT from proxy
+2024/04/01 14:07:00 reading login response
+2024/04/01 14:07:03 decoding user for getting the key
+2024/04/01 14:07:03 invalid character '/' looking for beginning of value
+2024/04/01 14:07:04 create GET HTTP request to https://stella-vpn-dev-sgfk.3.us-1.fl0.io/api/login
+2024/04/01 14:07:04 getting connection
+2024/04/01 14:07:04 writting request CONNECT to proxy
+2024/04/01 14:07:04 reading request CONNECT from proxy
+2024/04/01 14:07:04 reading login response
+2024/04/01 14:07:06 decoding user for getting the key
+2024/04/01 14:07:06 invalid character '/' looking for beginning of value
+2024/04/01 14:07:06 create GET HTTP request to https://stella-vpn-dev-sgfk.3.us-1.fl0.io/api/login
+2024/04/01 14:07:06 getting connection
+2024/04/01 14:07:06 writting request CONNECT to proxy
+2024/04/01 14:07:06 reading request CONNECT from proxy
+2024/04/01 14:07:07 reading login response

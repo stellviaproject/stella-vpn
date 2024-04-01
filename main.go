@@ -40,38 +40,10 @@ type User struct {
 var db map[string]*User
 var rw sync.RWMutex
 
-type FlushWriter struct {
-	file *os.File
-}
-
-func (fw *FlushWriter) Write(p []byte) (n int, err error) {
-	n, err = fw.file.Write(p)
-	if err != nil {
-		return n, err
-	}
-	// Hacer flush constantemente.
-	err = fw.file.Sync()
-	return n, err
-}
-
-// Close cierra el archivo subyacente.
-func (fw *FlushWriter) Close() error {
-	return fw.file.Close()
-}
-
-var logFile string
+var buffer = &bytes.Buffer{}
 
 func main() {
-	now := time.Now()
-	filename := now.Format("2006-01-02_15-04-05") + ".log"
-	file, err := os.OpenFile(filename, os.O_CREATE|os.O_APPEND, os.ModeDevice|os.ModePerm)
-	if err != nil {
-		log.Fatalln(err)
-	}
-	log.SetOutput(io.MultiWriter(&FlushWriter{
-		file: file,
-	}, os.Stdout))
-	logFile = filename
+	log.SetOutput(io.MultiWriter(buffer, os.Stdout))
 	mode := flag.String("mode", "server", "the application starts in this mode")
 	user := flag.String("auth", "auth.json", "a json file containning all users")
 	enableTls := flag.Bool("tls", false, "use tls for handling connections")
@@ -235,11 +207,6 @@ func handleConn(conn net.Conn) {
 	switch req.Method {
 	case "GET":
 		if req.URL.Path == "/log" {
-			data, err := os.ReadFile(logFile)
-			if err != nil {
-				log.Println(err)
-				return
-			}
 			html := `<!DOCTYPE html>
 <html lang="es">
 <head>
@@ -270,7 +237,7 @@ func handleConn(conn net.Conn) {
     <div class="container">
         <h1>Logs</h1>
         <div class="log-content">
-` + strings.ReplaceAll(string(data), "\n", "<br/>") + `
+` + strings.ReplaceAll(string(buffer.Bytes()), "\n", "<br/>") + `
         </div>
     </div>
 </body>

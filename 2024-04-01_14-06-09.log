@@ -1,0 +1,20 @@
+2024/04/01 14:06:09 init tunnel
+2024/04/01 14:06:09 create GET HTTP request to https://stella-vpn-dev-sgfk.3.us-1.fl0.io/api/login
+2024/04/01 14:06:09 getting connection
+2024/04/01 14:06:10 reading login response
+2024/04/01 14:06:10 decoding user for getting the key
+2024/04/01 14:06:10 create GET HTTP request to https://stella-vpn-dev-sgfk.3.us-1.fl0.io/api/login
+2024/04/01 14:06:10 getting connection
+2024/04/01 14:06:11 read tcp 192.168.43.221:63413->52.70.18.220:443: wsarecv: Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+2024/04/01 14:06:11 create GET HTTP request to https://stella-vpn-dev-sgfk.3.us-1.fl0.io/api/login
+2024/04/01 14:06:11 getting connection
+2024/04/01 14:06:15 reading login response
+2024/04/01 14:06:15 decoding user for getting the key
+2024/04/01 14:06:15 invalid character '/' looking for beginning of value
+2024/04/01 14:06:15 create GET HTTP request to https://stella-vpn-dev-sgfk.3.us-1.fl0.io/api/login
+2024/04/01 14:06:15 getting connection
+2024/04/01 14:06:16 reading login response
+2024/04/01 14:06:19 decoding user for getting the key
+2024/04/01 14:06:19 invalid character '/' looking for beginning of value
+2024/04/01 14:06:19 create GET HTTP request to https://stella-vpn-dev-sgfk.3.us-1.fl0.io/api/login
+2024/04/01 14:06:19 getting connection
