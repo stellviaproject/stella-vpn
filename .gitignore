@@ -1,0 +1,9 @@
+*.exe
+*.json
+*.txt
+*.key
+*.salt
+*.jwt
+*.db
+.vscode
+.log
